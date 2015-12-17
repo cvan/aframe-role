@@ -16,7 +16,8 @@ const aframeRole = new Role({
         scale: SCALE,
         scaleX: SCALE,
         scaleY: SCALE,
-        scaleZ: SCALE
+        scaleZ: SCALE,
+        color: 'color'
     },
 
     update: function (state) {
