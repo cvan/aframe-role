@@ -1,11 +1,11 @@
 # A-Frame plugin for Popmotion
 
-Popmotion Actor role to enable A-Frame animation, physics and input tracking.
+Popmotion Actor role to enable A-Frame animation, physics, and input tracking.
 
 ## Examples
 
 - [Physics](http://codepen.io/popmotion/pen/pgyoYx?editors=101)
-- Some rather obnoxious-yet-demonstrative animation](http://codepen.io/popmotion/pen/GoZpjo?editors=101)
+- [Some rather obnoxious-yet-demonstrative animation](http://codepen.io/popmotion/pen/GoZpjo?editors=101)
 
 ## Use
 
@@ -57,10 +57,10 @@ Will return an `Iterator` of `Actor` elements (see [full documentation](http://p
 All numerical properties can be set with Popmotion.
 
 - `position` properties can be set with `x`, `y`, and `z`.
-- `scale` and `rotation` properties can be set eg `scaleX` and `rotateY`.
-- Dash-case characters are set as camelCase, eg `radius-bottom` becomes `radiusBottom`.
+- `scale` and `rotation` properties can be set (e.g., `scaleX` and `rotateY`).
+- Dash-case characters are set as camelCase (e.g., `radius-bottom` becomes `radiusBottom`).
 
-## Advanced: create an A-Frame Actor
+## Advanced: create an A-Frame Actors
 
 If you're creating a lot of A-Frame Actors and don't want to set `as` each time, you could make something like this:
 
