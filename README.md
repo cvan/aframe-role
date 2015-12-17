@@ -52,7 +52,7 @@ Will return an `Iterator` of `Actor` elements (see [full documentation](http://p
 All numerical properties can be set with Popmotion.
 
 - `position` properties can be set with `x`, `y`, and `z`.
-- `scale` and `rotation` properties can be set eg `scaleX`.
+- `scale` and `rotation` properties can be set eg `scaleX` and `rotateY`.
 - Dash-case characters are set as camelCase, eg `radius-bottom` becomes `radiusBottom`.
 
 ## Advanced: create an A-Frame Actor
