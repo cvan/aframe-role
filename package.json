@@ -26,7 +26,7 @@
   ],
   "license": "GPL-3.0",
   "scripts": {
-    "compile": "babel src --out-dir lib && webpack",
+    "compile": "babel src --out-dir lib && webpack && uglifyjs aframe-role.global.js --compress --mangle --screw-ie8 -o aframe-role.global.min.js",
     "watch": "webpack --progress --colors --watch",
     "test": "mocha --compilers js:babel-register"
   },
