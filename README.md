@@ -3,8 +3,9 @@
 Popmotion Actor role to enable A-Frame animation, physics and input tracking.
 
 ## Examples
-[Physics](http://codepen.io/popmotion/pen/pgyoYx?editors=101)
-[Some rather obnoxious-yet-demonstrative animation](http://codepen.io/popmotion/pen/GoZpjo?editors=101)
+
+- [Physics](http://codepen.io/popmotion/pen/pgyoYx?editors=101)
+- Some rather obnoxious-yet-demonstrative animation](http://codepen.io/popmotion/pen/GoZpjo?editors=101)
 
 ## Use
 
