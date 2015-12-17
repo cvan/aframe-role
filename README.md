@@ -1,6 +1,6 @@
-# A-Frame Popmotion Actor Role
+# A-Frame plugin for Popmotion
 
-For A-Frame animation, physics and input tracking.
+Popmotion Actor Role forgit add A-Frame animation, physics and input tracking.
 
 ## Use
 
