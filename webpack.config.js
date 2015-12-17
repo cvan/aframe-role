@@ -2,7 +2,7 @@ module.exports = {
     entry: './src/inc/global.js',
     output: {
         path: __dirname,
-        filename: 'actorRole.global.js'
+        filename: 'aframe-role.global.js'
     },
     module: {
         loaders: [
