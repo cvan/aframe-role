@@ -1,0 +1,1 @@
+All Popmotion plugins are published under the [Popmotion license](https://github.com/Popmotion/popmotion/blob/master/LICENSE.md).

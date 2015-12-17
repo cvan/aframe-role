@@ -1,0 +1,47 @@
+{
+  "name": "popmotion-aframe-role",
+  "version": "0.0.1",
+  "description": "A-Frame Popmotion Actor for animation, tracking and physics",
+  "author": "Matt Perry <sirhound@popmotion.io>",
+  "homepage": "http://popmotion.io",
+  "main": "./lib/aframe-role.js",
+  "files": [
+    "lib",
+    "aframe-role.global.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Popmotion/aframe-role"
+  },
+  "bugs": {
+    "url": "https://github.com/Popmotion/aframe-role/issues"
+  },
+  "keywords": [
+    "aframe",
+    "animation",
+    "ux",
+    "ui",
+    "popmotion",
+    "aframe physics"
+  ],
+  "license": "GPL-3.0",
+  "scripts": {
+    "compile": "babel src --out-dir lib && webpack",
+    "watch": "webpack --progress --colors --watch",
+    "test": "mocha --compilers js:babel-register"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015-subset-loose": "^1.0.0",
+    "babel-preset-stage-2": "^6.0.15",
+    "babel-register": "^6.3.13",
+    "chai": "^3.4.0",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "webpack": "1.7.2"
+  },
+  "dependencies": {
+    "popmotion": "^4.3.0"
+  }
+}
