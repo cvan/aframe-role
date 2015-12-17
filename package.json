@@ -1,6 +1,6 @@
 {
   "name": "popmotion-aframe-role",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A-Frame plugin for Popmotion animation, tracking and physics",
   "author": "Matt Perry <sirhound@popmotion.io>",
   "homepage": "http://popmotion.io",
